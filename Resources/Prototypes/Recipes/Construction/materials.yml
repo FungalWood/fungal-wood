@@ -1,10 +1,10 @@
-﻿#- type: construction
-#  id: MetalRod
-#  graph: MetalRod
-#  startNode: start
-#  targetNode: MetalRod
-#  category: construction-category-materials
-#  objectType: Item
+﻿- type: construction
+  id: MetalRod
+  graph: MetalRod
+  startNode: start
+  targetNode: MetalRod
+  category: construction-category-materials
+  objectType: Item
 
 - type: construction
   id: SheetRGlass
