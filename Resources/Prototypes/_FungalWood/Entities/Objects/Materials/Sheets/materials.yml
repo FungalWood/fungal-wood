@@ -7,7 +7,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Wood: 100
+      RawWood: 100
   - type: Stack
     count: 5
     stackType: WoodRaw
