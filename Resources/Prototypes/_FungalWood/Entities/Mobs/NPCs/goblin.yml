@@ -15,15 +15,6 @@
       Male: MaleReptilian
       Female: FemaleReptilian
       Unsexed: MaleReptilian
-  - type: InteractionPopup
-    successChance: 0.9
-    interactSuccessString: petting-success-monkey
-    interactFailureString: petting-failure-monkey
-    interactSuccessSpawn: EffectHearts
-    interactSuccessSound:
-      path: /Audio/Animals/lizard_happy.ogg
-    interactFailureSound:
-      path: /Audio/Items/wirecutter.ogg
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -39,8 +30,7 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 5
-        Piercing: 4
+        Slash: 7
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -63,10 +53,13 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeat
+    - id: FoodMeatRotten #gross!
       amount: 2
   - type: AlwaysRevolutionaryConvertible
   - type: GhostTakeoverAvailable
+  - type: NpcFactionMember
+    factions:
+      - SimpleHostile
   - type: GhostRole
     makeSentient: true
     name: ghost-role-information-goblin-name
@@ -77,4 +70,4 @@
   name: goblin
   id: MobGoblin
   parent: MobBaseGoblin
-  description: Little green guys. They smell bad and look worse.
+  description: A little green guy. It looks bad and smells worse.
