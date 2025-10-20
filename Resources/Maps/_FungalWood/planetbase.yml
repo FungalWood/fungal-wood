@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.2.0
   forkId: ""
   forkVersion: ""
-  time: 10/20/2025 00:24:55
-  entityCount: 13
+  time: 10/20/2025 04:00:19
+  entityCount: 14
 maps:
 - 1
 grids:
@@ -45,8 +45,8 @@ entities:
           version: 7
     - type: Broadphase
     - type: Physics
-      bodyStatus: OnGround
-      fixedRotation: True
+      bodyStatus: InAir
+      fixedRotation: False
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
@@ -66,6 +66,9 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: Shuttle
+      dampingModifier: 0.25
+    - type: ImplicitRoof
 - proto: AlwaysPoweredLightLED
   entities:
   - uid: 7
@@ -110,6 +113,13 @@ entities:
     components:
     - type: Transform
       pos: 3.5,2.5
+      parent: 2
+- proto: SpawnPointPeasant
+  entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 3.5,1.5
       parent: 2
 - proto: WallVaultAlien
   entities:
