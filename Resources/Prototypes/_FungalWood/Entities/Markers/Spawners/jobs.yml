@@ -4,7 +4,7 @@
   name: king
   components:
   - type: SpawnPoint
-    job_id: King
+    job_id: FWKing
   - type: Sprite
     layers:
     - state: green
@@ -16,7 +16,7 @@
   name: guard captain
   components:
   - type: SpawnPoint
-    job_id: GuardCaptain
+    job_id: FWGuardCaptain
   - type: Sprite
     layers:
     - state: green
@@ -28,7 +28,7 @@
   name: guard
   components:
   - type: SpawnPoint
-    job_id: TownGuard
+    job_id: FWTownGuard
   - type: Sprite
     layers:
     - state: green
@@ -40,7 +40,7 @@
   name: peasant
   components:
   - type: SpawnPoint
-    job_id: Peasant
+    job_id: FWPeasant
   - type: Sprite
     layers:
     - state: green
