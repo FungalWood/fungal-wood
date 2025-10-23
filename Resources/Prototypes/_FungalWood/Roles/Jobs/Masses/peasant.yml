@@ -10,4 +10,4 @@
 - type: startingGear
   id: PeasantGear
   equipment:
-    jumpsuit: ClothingUniformPeasant
+    jumpsuit: FWClothingUniformPeasant

@@ -10,5 +10,5 @@
 - type: startingGear
   id: KingGear
   equipment:
-    neck: ClothingNeckKingCape
-    jumpsuit: ClothingUniformKing
+    neck: FWClothingNeckKingCape
+    jumpsuit: FWClothingUniformKing

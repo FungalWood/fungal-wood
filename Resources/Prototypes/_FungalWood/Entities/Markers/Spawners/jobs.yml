@@ -1,5 +1,5 @@
 - type: entity
-  id: SpawnPointKing
+  id: FWSpawnPointKing
   parent: SpawnPointJobBase
   name: king
   components:
@@ -11,7 +11,7 @@
     - state: passenger
 
 - type: entity
-  id: SpawnPointGuardCaptain
+  id: FWSpawnPointGuardCaptain
   parent: SpawnPointJobBase
   name: guard captain
   components:
@@ -23,7 +23,7 @@
     - state: passenger
 
 - type: entity
-  id: SpawnPointGuard
+  id: FWSpawnPointGuard
   parent: SpawnPointJobBase
   name: guard
   components:
@@ -35,7 +35,7 @@
     - state: passenger
 
 - type: entity
-  id: SpawnPointPeasant
+  id: FWSpawnPointPeasant
   parent: SpawnPointJobBase
   name: peasant
   components:
