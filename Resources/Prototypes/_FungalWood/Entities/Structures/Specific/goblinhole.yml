@@ -51,9 +51,6 @@
     enabled: false
   - type: Slippery
     slipSound: /Audio/Effects/plant_rustle.ogg
-    params:
-      pitch: 0.8
-      variation: 0.2
     affectsSliding: false
     slipData:
       launchForwardsMultiplier: 0.5
