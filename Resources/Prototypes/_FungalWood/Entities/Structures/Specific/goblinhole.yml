@@ -65,3 +65,8 @@
     intervalSeconds: 24 #0.75 gpm (goblins per minute) on average
     minimumEntitiesSpawned: 1
     maximumEntitiesSpawned: 2 #buddy system
+    audioOnSpawn:
+      path: /Audio/Items/shovel_dig.ogg
+      params:
+        pitch: 1.5
+        variation: 0.2
