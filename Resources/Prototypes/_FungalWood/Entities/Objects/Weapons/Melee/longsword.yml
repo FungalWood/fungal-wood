@@ -12,13 +12,13 @@
     damage:
       types:
         Slash: 16
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
         Slash: 8
-    soundHit:
-      path: /Audio/Weapons/bladeslice.ogg
   - type: Item
     size: Ginormous
   - type: Clothing
