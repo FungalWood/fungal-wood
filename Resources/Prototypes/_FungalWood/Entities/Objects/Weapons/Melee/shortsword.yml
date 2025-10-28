@@ -18,3 +18,10 @@
   - type: Tag
     tags:
     - FWShortsword
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,1,2
+    storedSprite:
+      state: storage
+      sprite: _FungalWood/Objects/Weapons/Melee/shortsword.rsi
