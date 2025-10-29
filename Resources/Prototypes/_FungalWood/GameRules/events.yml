@@ -1,0 +1,19 @@
+- type: entityTable
+  id: FWEventsTable
+  table: !type:AllSelector
+    children:
+    - id: FWGoblinBurrow
+
+- type: entity
+  id: FWGoblinBurrow
+  parent: BaseStationEvent
+  components:
+  - type: StationEvent
+    earliestStart: 20
+    minimumPlayers: 5
+    weight: 1
+    duration: 60
+  - type: GoblinBurrowRule
+    prototypes:
+    - id: FWGoblinHole
+    - id: FWMobGoblin
