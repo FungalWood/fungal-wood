@@ -1,0 +1,11 @@
+- type: job
+  id: FWCourtPhysician
+  name: job-name-court-physician
+  description: job-description-court-physician
+  playTimeTracker: FWJobCourtPhysician
+  startingGear: FWCourtPhysicianGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-king
+
+- type: startingGear
+  id: FWCourtPhysicianGear

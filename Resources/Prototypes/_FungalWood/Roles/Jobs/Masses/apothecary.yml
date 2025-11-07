@@ -1,0 +1,11 @@
+- type: job
+  id: FWApothecary
+  name: job-name-apothecary
+  description: job-description-apothecary
+  playTimeTracker: FWJobApothecary
+  startingGear: FWApothecaryGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+
+- type: startingGear
+  id: FWApothecaryGear

@@ -11,6 +11,18 @@
     - state: passenger
 
 - type: entity
+  id: FWSpawnPointCourtPhysician
+  parent: SpawnPointJobBase
+  name: court physician
+  components:
+  - type: SpawnPoint
+    job_id: FWCourtPhysician
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
   id: FWSpawnPointGuardCaptain
   parent: SpawnPointJobBase
   name: guard captain
@@ -29,6 +41,18 @@
   components:
   - type: SpawnPoint
     job_id: FWTownGuard
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
+  id: FWSpawnPointApothecary
+  parent: SpawnPointJobBase
+  name: apothecary
+  components:
+  - type: SpawnPoint
+    job_id: FWApothecary
   - type: Sprite
     layers:
     - state: green
