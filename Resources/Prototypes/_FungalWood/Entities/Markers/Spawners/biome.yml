@@ -1,6 +1,8 @@
 - type: entity
   id: FWBiomeSpawnerBase
   abstract: true
+  placement:
+    mode: SnapgridCenter
   components:
   - type: CP14BiomeSpawner
   - type: PlacementReplacement
