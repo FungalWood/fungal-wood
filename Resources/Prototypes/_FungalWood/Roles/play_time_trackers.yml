@@ -8,4 +8,7 @@
   id: FWJobGuard
 
 - type: playTimeTracker
+  id: FWJobBlacksmith
+
+- type: playTimeTracker
   id: FWJobPeasant

@@ -1,0 +1,11 @@
+- type: job
+  id: FWBlacksmith
+  name: job-name-blacksmith
+  description: job-description-blacksmith
+  playTimeTracker: FWJobBlacksmith
+  startingGear: FWBlacksmithGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+
+- type: startingGear
+  id: FWBlacksmithGear

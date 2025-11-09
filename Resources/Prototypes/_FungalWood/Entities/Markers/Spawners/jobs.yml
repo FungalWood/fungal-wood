@@ -1,3 +1,4 @@
+#Nobles
 - type: entity
   id: FWSpawnPointKing
   parent: SpawnPointJobBase
@@ -10,6 +11,7 @@
     - state: green
     - state: passenger
 
+#Guards
 - type: entity
   id: FWSpawnPointGuardCaptain
   parent: SpawnPointJobBase
@@ -29,6 +31,19 @@
   components:
   - type: SpawnPoint
     job_id: FWTownGuard
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+#Commoners
+- type: entity
+  id: FWSpawnPointBlacksmith
+  parent: SpawnPointJobBase
+  name: blacksmith
+  components:
+  - type: SpawnPoint
+    job_id: FWBlacksmith
   - type: Sprite
     layers:
     - state: green

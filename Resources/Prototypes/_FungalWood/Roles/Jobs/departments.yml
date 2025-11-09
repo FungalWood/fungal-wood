@@ -24,4 +24,5 @@
   color: "#9FED58"
   weight: -10
   roles:
+  - FWBlacksmith
   - FWPeasant
