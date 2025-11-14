@@ -1,0 +1,287 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: FWIngotBase
+  description: A heavy metal ingot.
+  components:
+  - type: Sprite
+    sprite: Objects/Materials/ingots.rsi
+  - type: Item
+    sprite: Objects/Materials/ingots.rsi
+    size: Normal
+  - type: Tag
+    tags:
+    - Ingot
+    - ConstructionMaterial
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+#copper
+- type: entity
+  parent: FWIngotBase
+  id: FWCopperIngot
+  name: copper ingot
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWCopper: 100
+  - type: Stack
+    stackType: FWCopper
+    baseLayer: base
+    layerStates:
+    - copper
+    - copper_2
+    - copper_3
+  - type: Sprite
+    state: copper_3
+    layers:
+    - state: copper_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: copper
+  - type: Appearance
+
+- type: entity
+  parent: FWCopperIngot
+  id: FWCopperIngot1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWCopperIngot
+  id: FWCopperIngot5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWCopperIngot
+  id: FWCopperIngot10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#gold
+- type: entity
+  parent: FWIngotBase
+  id: FWGoldIngot
+  name: gold ingot
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWGold: 100
+  - type: Stack
+    stackType: FWGold
+    baseLayer: base
+    layerStates:
+    - gold
+    - gold_2
+    - gold_3
+  - type: Sprite
+    state: gold_3
+    layers:
+    - state: gold_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: gold
+  - type: Appearance
+
+- type: entity
+  parent: FWGoldIngot
+  id: FWGoldIngot1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWGoldIngot
+  id: FWGoldIngot5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWGoldIngot
+  id: FWGoldIngot10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#iron
+- type: entity
+  parent: FWIngotBase
+  id: FWIronIngot
+  name: iron ingot
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWIron: 100
+  - type: Stack
+    stackType: FWIron
+    baseLayer: base
+    layerStates:
+    - iron
+    - iron_2
+    - iron_3
+  - type: Sprite
+    state: iron_3
+    layers:
+    - state: iron_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: iron
+  - type: Appearance
+
+- type: entity
+  parent: FWIronIngot
+  id: FWIronIngot1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWIronIngot
+  id: FWIronIngot5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWIronIngot
+  id: FWIronIngot10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#mithril
+- type: entity
+  parent: FWIngotBase
+  id: FWMithrilIngot
+  name: mithril ingot
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWMithril: 100
+  - type: Stack
+    stackType: FWMithril
+    baseLayer: base
+    layerStates:
+    - adamantine
+    - adamantine_2
+    - adamantine_3
+  - type: Sprite
+    state: adamantine_3
+    layers:
+    - state: adamantine_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: mithril
+  - type: Appearance
+
+- type: entity
+  parent: FWMithrilIngot
+  id: FWMithrilIngot1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWMithrilIngot
+  id: FWMithrilIngot5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWMithrilIngot
+  id: FWMithrilIngot10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#silver
+- type: entity
+  parent: FWIngotBase
+  id: FWSilverIngot
+  name: silver ingot
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWSilver: 100
+  - type: Stack
+    stackType: FWSilver
+    baseLayer: base
+    layerStates:
+    - silver
+    - silver_2
+    - silver_3
+  - type: Sprite
+    state: silver_3
+    layers:
+    - state: silver_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: silver
+  - type: Appearance
+
+- type: entity
+  parent: FWSilverIngot
+  id: FWSilverIngot1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWSilverIngot
+  id: FWSilverIngot5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWSilverIngot
+  id: FWSilverIngot10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10

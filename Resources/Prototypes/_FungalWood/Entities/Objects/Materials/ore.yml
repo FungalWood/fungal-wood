@@ -1,0 +1,308 @@
+- type: entity
+  abstract: true
+  parent: OreBase
+  id: FWOreBase
+  components:
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+
+#coal
+- type: entity
+  parent: FWOreBase
+  id: FWCoal
+  name: coal
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWCoal
+  - type: Sprite
+    state: coal
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWCoal: 100
+  - type: Item
+    heldPrefix: coal
+
+- type: entity
+  parent: FWCoal
+  id: FWCoal1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWCoal
+  id: FWCoal5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWCoal
+  id: FWCoal10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#copper
+- type: entity
+  parent: FWOreBase
+  id: FWCopperRaw
+  name: copper
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWCopperRaw
+  - type: Sprite
+    state: iron
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWCopperRaw: 100
+  - type: Item
+    heldPrefix: copper
+
+- type: entity
+  parent: FWCopperRaw
+  id: FWCopperRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWCopperRaw
+  id: FWCopperRaw5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWCopperRaw
+  id: FWCopperRaw10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#diamond
+- type: entity
+  parent: FWOreBase
+  id: FWDiamond
+  name: diamond
+  description: Ooh, shiny.
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWDiamond
+  - type: Sprite
+    state: diamond
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWDiamond: 100
+  - type: Item
+    heldPrefix: diamond
+
+- type: entity
+  parent: FWDiamond
+  id: FWDiamond1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWDiamond
+  id: FWDiamond5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWDiamond
+  id: FWDiamond10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#gold
+- type: entity
+  parent: FWOreBase
+  id: FWGoldRaw
+  name: gold
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWGoldRaw
+  - type: Sprite
+    state: gold
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWGoldRaw: 100
+  - type: Item
+    heldPrefix: gold
+
+- type: entity
+  parent: FWGoldRaw
+  id: FWGoldRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWGoldRaw
+  id: FWGoldRaw5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWGoldRaw
+  id: FWGoldRaw10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#iron
+- type: entity
+  parent: FWOreBase
+  id: FWIronRaw
+  name: iron
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWIronRaw
+  - type: Sprite
+    state: iron
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWIronRaw: 100
+  - type: Item
+    heldPrefix: iron
+
+- type: entity
+  parent: FWIronRaw
+  id: FWIronRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWIronRaw
+  id: FWIronRaw5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWIronRaw
+  id: FWIronRaw10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#mithril
+- type: entity
+  parent: FWOreBase
+  id: FWMithrilRaw
+  name: mithril
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWMithrilRaw
+  - type: Sprite
+    state: gold
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWMithrilRaw: 100
+  - type: Item
+    heldPrefix: mithril
+
+- type: entity
+  parent: FWMithrilRaw
+  id: FWMithrilRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWMithrilRaw
+  id: FWMithrilRaw5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWMithrilRaw
+  id: FWMithrilRaw10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+
+#silver
+- type: entity
+  parent: FWOreBase
+  id: FWSilverRaw
+  name: silver
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: FWSilverRaw
+  - type: Sprite
+    state: silver
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FWSilverRaw: 100
+  - type: Item
+    heldPrefix: silver
+
+- type: entity
+  parent: FWSilverRaw
+  id: FWSilverRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: FWSilverRaw
+  id: FWSilverRaw5
+  suffix: Five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: FWSilverRaw
+  id: FWSilverRaw10
+  suffix: Ten
+  components:
+  - type: Stack
+    count: 10
+

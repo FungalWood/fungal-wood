@@ -28,7 +28,7 @@
     materialUseMultiplier: 2.0 #this is a furnace, of course it sucks
     defaultProductionAmount: 10
     staticPacks:
-    - OreSmelting
+    - FWOreSmelting
   - type: MaterialStorage
     ignoreColor: true
     whitelist:

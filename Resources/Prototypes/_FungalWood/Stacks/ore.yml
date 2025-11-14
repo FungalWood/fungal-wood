@@ -1,0 +1,48 @@
+- type: stack
+  parent: BaseMediumStack
+  id: FWCoal
+  name: stack-coal
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: coal }
+  spawn: FWCoal1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWCopperRaw
+  name: stack-ore-copper
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
+  spawn: FWCopperRaw1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWGoldRaw
+  name: stack-ore-gold
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: gold }
+  spawn: FWGoldRaw1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWDiamond
+  name: stack-ore-diamond
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: diamond }
+  spawn: FWDiamond1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWIronRaw
+  name: stack-ore-iron
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
+  spawn: FWIronRaw1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWMithrilRaw
+  name: stack-ore-mithril
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: silver }
+  spawn: FWMithrilRaw1
+
+- type: stack
+  parent: BaseMediumStack
+  id: FWSilverRaw
+  name: stack-ore-silver
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: silver }
+  spawn: FWSilverRaw1

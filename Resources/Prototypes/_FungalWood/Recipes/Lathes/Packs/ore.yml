@@ -1,0 +1,8 @@
+- type: latheRecipePack
+  id: FWOreSmelting
+  recipes:
+  - FWCopperIngot1
+  - FWGoldIngot1
+  - FWIronIngot1
+  - FWSilverIngot1
+  - FWMithrilIngot1

@@ -1,0 +1,34 @@
+- type: latheRecipe
+  id: FWCopperIngot1
+  result: FWCopperIngot1
+  completetime: 1
+  materials:
+    FWCopperRaw: 100
+
+- type: latheRecipe
+  id: FWGoldIngot1
+  result: FWGoldIngot1
+  completetime: 1
+  materials:
+    FWGoldRaw: 100
+
+- type: latheRecipe
+  id: FWIronIngot1
+  result: FWIronIngot1
+  completetime: 1
+  materials:
+    FWIronRaw: 100
+
+- type: latheRecipe
+  id: FWSilverIngot1
+  result: FWSilverIngot1
+  completetime: 1
+  materials:
+    FWSilverRaw: 100
+
+- type: latheRecipe
+  id: FWMithrilIngot1
+  result: FWMithrilIngot1
+  completetime: 1
+  materials:
+    FWMithrilRaw: 100
